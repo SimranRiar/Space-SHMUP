@@ -14,7 +14,6 @@ public class ProjectileHero : MonoBehaviour
 
     void Update()
     {
-
         if (bndCheck.offUp)
         {
             Destroy(gameObject);

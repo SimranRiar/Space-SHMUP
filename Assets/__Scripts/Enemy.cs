@@ -47,8 +47,10 @@ public class Enemy : MonoBehaviour {
 
     void OnCollisionEnter(Collision coll)
     {
-
+        
         GameObject otherGO = coll.gameObject;
+
+        print("Collision " + otherGO.name);
 
         if (otherGO.tag == "ProjectileHero")
         {
