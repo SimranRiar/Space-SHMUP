@@ -11,12 +11,10 @@ public class Shield : MonoBehaviour {
 
     Material mat;
 
-	// Use this for initialization
 	void Start () {
         mat = GetComponent<Renderer>().material;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		int currlevel = Mathf.FloorToInt (Hero.S.shieldLevel);
 
