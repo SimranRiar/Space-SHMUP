@@ -49,7 +49,7 @@ public class Weapon : MonoBehaviour {
 
 
 
-    void Start()
+    void Awake()
     {
 
         collar = transform.Find("Collar").gameObject;
